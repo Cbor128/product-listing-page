@@ -59,3 +59,11 @@
   float: right;
   padding: 20px;
 }
+
+#keepShopping:hover {
+  color: red;
+}
+
+#keepShopping:active {
+  color: black;
+}
