@@ -33,4 +33,29 @@
 .shoppingCart {
   clear: left;
   padding: 20px;
+  width: 1500px;
+}
+
+.quantityHeader, .priceHeader {
+  float: right; 
+  display: inline-block;
+  padding: 20px;   
+}
+
+.cartItem {
+  margin: 20px 20px 0 0;  
+  border: 1px solid #333;
+  padding: 20px;
+  width: 1500px;
+  height: 250px;
+  float: left;
+}
+
+.cartItem .price {
+  float: right;
+}
+
+.cartTotal {
+  float: right;
+  padding: 20px;
 }
